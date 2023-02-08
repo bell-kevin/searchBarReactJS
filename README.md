@@ -1,4 +1,8 @@
-# 
+# Search Bar using React
+
+Follow this tutorial: https://piped.hostux.net/watch?v=ABQLwlE8MUA
+
+![p](https://github.com/bell-kevin/searchBarReactJS/blob/main/searchBar.PNG)
 
 
 == We're Using GitHub Under Protest ==
