@@ -75,10 +75,24 @@ const App = () => {
                 "Pepper",
                 "Flour",
                 "Bread",
+                "Gluten Free Bread",
                 "Rice",
                 "Pasta",
                 "Noodles",
                 "Cereal",
+                "Oatmeal",
+                "Granola",
+                "Pancake Mix",
+                "Gluten Free Pancake Mix",
+                "Gluten Free Pasta",
+                "Gluten Free Cereal",
+                "Gluten Free Oatmeal",
+                "Gluten Free Granola",
+                "Gluten Free Cake",
+                "Gluten Free Cookies",
+                "Gluten Free Crackers",
+                "Gluten Free Pizza",
+                "Gluten Free Tortillas",
                 "Milk",
                 "Cheese",
                 "Butter",
@@ -131,15 +145,33 @@ const App = () => {
                 "Pie",
                 "Donuts",
                 "Frozen Pizza",
+                "Deodorant",
+                "Soap",
+                "Shampoo",
+                "Cotton Swabs",
+                "Toothpaste",
+                "Toothbrush",
+                "Floss",
+                "Razor",
+                "Shaving Cream",
+                "Lotion",
+                "Sunscreen",
+                "Tissues",
+                "Band-Aids",
+                "Ibuprofen",
+                "Vitamin C",
+                "Salt Pellets",
+                "Air Filter",
             ]);
-        }, 2000);
+        }, 500);
     }, []);
 
     const hasProducts = productsState.length > 0;
 
     return (
         <div>
-            <SearchBar products={productsState} />
+          
+          {hasProducts ? <SearchBar products={productsState} /> : <p>Loading...</p>}
         </div>
     );
 };
