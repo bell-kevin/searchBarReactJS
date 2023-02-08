@@ -24,12 +24,13 @@ const SearchBar = (props) => {
         <div>
             <input type="text" value={searchTerm} onChange={handleChange} placeholder="Search" />
             {shouldDisplayButton && <button onClick={handleClear}>Clear</button>}
-
-            <ul>
+            <br></br>
+            <br></br>
+            <div className="text-list">
                 {filteredProducts.map((product) => {
-                    return <li key={product}>{product}</li>;
+                    return <div key={product}>{product}</div>;
                 })}
-            </ul>
+            </div>
         </div>
     );
 };
