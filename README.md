@@ -2,8 +2,11 @@
 
 Follow this tutorial: https://piped.hostux.net/watch?v=ABQLwlE8MUA
 
+![p](https://github.com/bell-kevin/searchBarReactJS/blob/main/loading.PNG)
+
 ![p](https://github.com/bell-kevin/searchBarReactJS/blob/main/searchBar.PNG)
 
+![p](https://github.com/bell-kevin/searchBarReactJS/blob/main/filteredList.PNG)
 
 == We're Using GitHub Under Protest ==
 
